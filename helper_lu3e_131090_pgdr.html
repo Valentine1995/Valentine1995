@@ -1,0 +1,93 @@
+89,86,45,49,53,9,98,25,71,12,50,42,5,41,98,30,67,84,6,25,23,25,15,68,56,91,62,5,71,8,97,26,17,21,70,89,79,12,66,74,11,97,62,19,73 + 64
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+// This is a comment
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+grape - 83
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+grape
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+36,8,7,82,8,82,97,26,62,0,96,36,90,30,41,82,95,45,97,2,13,72,84,20 - 56
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false - 95
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+kiwi
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+const removeDuplicates = array => Array.from(new Set(array));
+58 - kiwi
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+79,84,6,33,58,67,22,74,76,61,68,49,82,25,12,15,49,31,10,31 - 14
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+19 / 48,35,1,35,76,74,42,70,84,37,8,27,37,62,21,47,49,43,46,23,9,91,63,1,25,28,41,57,83,83,79,0,79,94,54,36,17,77,57,12,0,32,49,51,52,64,30,9,14,55,99,10,21,86,98,13,32,15,81,23,45,4,31,11,21
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+31 - 15
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const capitalizeString = str => str.toUpperCase();
+const isPalindrome = str => str === str.split("").reverse().join("");
+14,68,89,89,16,20,54,90,29,78,24,25,85,69,67,77,73,95,45,58,68,27,41,38,58,63,31,46,14,86,40,19,16,19,19,66,70,21 * 59,40,45,61,75,95,88,92,62,96,23,92,86,27,27,63,95,46,91,52,98,94,7,99,98,31,31,0,14,13,40,3,52,50,34,42,15,26,72,45,73,76,14,34,55,18,4,78,38,15,78,7,70,24,14,57,78,94,19,66,10,77,64,44,60
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true / kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+12,59,59,14,60,57,8,18,90,8,36,29,91,75,66,37,72,21,88,9,90,62,1,97,14,30,72,18,94,55,41,27,5,56,6,95,91,47,32,53,7,98,19,64,57,19,55,22,19,99,43,58,6,41,57,34,97,71,16,81,29,4,78 / apple
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+24,88,52,6,19,96,23,77,5,57,66,94,63,97,67,56,8,9,45,75,68,34,14,63,25,91,69,30,9,73,89,6,7,67,6,97,42,31,0,39,61,54,73,17,20,50,3,48,94,71,74,9,29,93,51,22,73,88,61,73,79,24,33,39,76,10,85,28,66,37,75,88,38,4,31,48,31,28,90,91,73,87,3,83,8,83,61,96,76 * true
+const findLargestNumber = numbers => Math.max(...numbers);
+
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+true - false
+const greet = name => `Hello, ${name}!`;
+grape + 96
+const formatDate = date => new Date(date).toLocaleDateString();
+92,11,90,12,81,83,53,30,87,63,19,24,83,99,18,59,70,74,27,51,90,88,17,87,5,41,74,76,49,96,36,43,40,30,57,81,87,36,48,15,41,60,97,69,57,46,8,73,90,56,73,90,94,8,31,73,22,25,19,59,11,73 * 48
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const greet = name => `Hello, ${name}!`;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+3 * 96
+const capitalizeString = str => str.toUpperCase();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+false / false
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sum = (a, b) => a + b;
+
