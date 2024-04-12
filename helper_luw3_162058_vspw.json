@@ -1,0 +1,37 @@
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+banana / 1
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const multiply = (a, b) => a * b;
+40,79,80,90,65,65,78,72,78,28,27,49,39,29,32,85,23,90,74,67,96,13,48,74,25,40 + false
+
+const isEven = num => num % 2 === 0;
+grape / 62
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+0,85,97,90,29,37,89,7,76,70,54,29,76,84,88,39,10,55,63,36,88 + apple
+const greet = name => `Hello, ${name}!`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false - false
+const reverseString = str => str.split("").reverse().join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+banana
+
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const randomNumber = getRandomNumber();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+69 + apple
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
