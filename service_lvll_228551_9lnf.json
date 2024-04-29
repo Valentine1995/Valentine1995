@@ -1,0 +1,74 @@
+26,93,67,64,56,89,88,95,43,93,79,97,84,10,81,88,87,57,77,86,91,80,49,49,2,21,91,65,10,21,99,41 + grape
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+grape - 37,98,76,98,10,56,66,98
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+function addNumbers(a, b) { return a + b; }
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+67,80,25,57,32,54,76,91,18,79,33,71,91,11,19,62,58,23,8,15,81,91,54,82,38,26,5,14,89,62,86,10,22,0,72,5,37,3,62,98,36,99,67,96,4,5,94,90,68,77,99,98,10,74,81,28,75,23,55,36,52,94,47,4,16,49,47,71 - true
+
+console.log(getRandomString());
+function addNumbers(a, b) { return a + b; }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange * 26
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const greet = name => `Hello, ${name}!`;
+grape
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+94 / 25,42,38,45,13,6,91,11,52,89,81,70,64,53,28,29,77,35,56,66,89,82,68,1,95,52,45,75,29,59,53,69,3,18,84,74,87,48,33,6,59,42,99,48,89,52,94,28,66,73,70,95,10,39,9,2,73,24,31,8,13,85,52,42,40,58,23,21,44,56,71,24,45,43,47,16,2,19
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+apple * true
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+58 / kiwi
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+true / banana
+// This is a comment
+const multiply = (a, b) => a * b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const multiply = (a, b) => a * b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+console.log(getRandomString());
+banana
+
+console.log(getRandomString());
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+84,74,58,14,84,24,4,32,23,49,54,13,60,14,89,9,7,1,10,0,41,78,88,79,14,3,73,6,68,74,61,94,91,59,60,38,73,91,28,24,67,20,76,64,64,70,10,38,69,1,72 / true
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const squareRoot = num => Math.sqrt(num);
+38,95,30,15,83,50,59,58,90,81,92,89,74,98,94,70,75,62,31,64,51,32,95,76,37,71,43,2,85,55,52,58,64,11,98,45,98,69,66,72,83,58,41,10,44,90,46,75,6,41,58,79,31,49,63,56,41,60,61,85,21,84,22,52,68,31,78,91,54,59 - orange
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
